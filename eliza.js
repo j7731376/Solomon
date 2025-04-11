@@ -60,10 +60,10 @@ function getElizaReply(input) {
     // Convert input to lowercase for consistent matching
     const lowerCaseInput = input.toLowerCase();
 
-    // Check for keywords in order of priority
-    for (const clue of clues) {
-        if (lowerCaseInput.includes(clue.keyword)) {
-            return clue.response;
+    // Check for keywords in input
+    for (const keyword in clues) {
+        if (lowerCaseInput.includes(keyword)) {
+            return clues[keyword];
         }
     }
 
@@ -87,6 +87,5 @@ function sendMessage() {
     const elizaMessage = getElizaReply(userMessage);
     setTimeout(() => {
         addMessageToChatBox('ELIZA', elizaMessage);
-    }, 800); // Simulate a delay
+    }, 1000); // Simulate a delay
 }
-
