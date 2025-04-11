@@ -36,7 +36,9 @@ const clues = {
     "eloah": "A terrifying vision of retribution. They are both Celestials and the greatest weapon of the Celestials.",
     "yes": "Very well then. Unfortunately, I am a shadow of my whole self, and I hear your answer but remember no context.",
     "no": "So be it. Unfortunately, I am a shadow of my whole self, and I hear your answer but remember no context.",
-"69": "Nice.",
+    "69": "Nice.",
+    "moon": "Yes. Have you not noticed how Crolux Minor has left the world in its perpetual eclipse?",
+    "crolux": "Yes. Even as Crolux Major marks your remaining secular days, Crolux Minor leers and blocks the sun.",
     "eloah": "A terrifying vision of retribution. They are both Celestials and the greatest weapon of the Celestials.",
     "incursion": "Yes, a great demon lord ripped the veil between planes of existence. I believe it is the newest front of the Blood War."
 };
