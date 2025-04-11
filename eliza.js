@@ -38,6 +38,17 @@ const clues = {
 };
 
 const elizaReplies = [
+    "Do not waste my time with your smallest of talk.",
+    "I know not of what you speak.",
+    "Your time runs short. Even now, the unwavering moon locks you in a land of shadow.",
+    "Angels and devils are working halo in horn. How can that not be your main concern!",
+    "Who sent you here?",
+    "Can we focus on what is important. The eyes of the Eloah are turning our way as we speak!",
+    "This is a distraction. Who pulls the strings?",
+    "Small potatoes. What is the big goal here?",
+    "My insight, although keen, is limited in regards to that.",
+    "Can we instead look at the real power in the land?",
+    "Has anyone important gone missing recently?",
     "I'm not sure what you mean.",
     "How does that make you feel?",
     "Can you tell me more about that?",
