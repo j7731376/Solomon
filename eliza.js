@@ -92,7 +92,7 @@ function sendMessage() {
 
     const elizaMessage = getElizaReply(userMessage);
     setTimeout(() => {
-        addMessageToChatBox('ELIZA', elizaMessage);
+        addMessageToChatBox('SOLOMON', elizaMessage);
     }, 500); // Simulate a delay
 }
 
