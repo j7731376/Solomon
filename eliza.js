@@ -5,9 +5,9 @@ const userInput = document.getElementById('user-input');
 
 // Define clues for specific keywords
 const clues = {
-    "stan": "Stanley Redux. An unfortunate soul...",
-    "vail island": "My home. The source of my voice...",
-    "vailerian": "Ah - they were once an ancient order...",
+    "stan": "Stanley Redux. An unfortunate soul doomed to perpetual service. In every life he returns the same, humble, blank slate. I do not know who cursed or blessed him, but I have always known him to be there.",
+    "vail island": "My home. The source of my voice. For your own safety, do not seek it out. But know that my eyes are on you even now.",
+    "vailerian": "Ah - they were once an ancient order. Founded the moment Kersh's eye first turned its gaze from us. What you see of them now, a ragtag band of defiance is just their current form. They have been monks, warriors, advisors. They are what ever they are needed to be.",
     "prototypes": "Weapons of war or conquest...",
     "seraphic": "It was sold as a way to tip the scales...",
     "inferno": "It was sold as a way to tip the scales...",
