@@ -5,6 +5,10 @@ const userInput = document.getElementById('user-input');
 
 // Define clues for specific keywords
 const clues = {
+    "dbi00x": "Project DBI 00X. Overview: REDACTED.\nROOT ACCESS REQUIRED.\nGoal: Decisive victory in the Blood War.\nTeam: REDACTED. ROOT ACCESS REQUIRED.",
+    "root access": "Enter root access password.",
+    "dbi00x": "Project DBI 00X. Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments. Goal: Decisive victory in the Blood War. Team:\n*Damaris, Silas: Deceased . ROOT ACCESS REQUIRED.",
+    
     "stan": "Stanley Redux. An unfortunate soul doomed to perpetual service. In every life he returns the same, humble, blank slate. I do not know who cursed or blessed him, but I have always known him to be there.",
     "vail island": "My home. The source of my voice. For your own safety, do not seek it out. But know that my eyes are on you even now.",
     "vailerian": "Ah - they were once an ancient order. Founded the moment Kersh's eye first turned its gaze from us. What you see of them now, a ragtag band of defiance is just their current form. They have been monks, warriors, advisors. They are what ever they are needed to be.",
@@ -79,11 +83,12 @@ function getnanobotReply(input) {
 
 function addMessageToChatBox(sender, message) {
     const messageElement = document.createElement('div');
-    messageElement.textContent = sender + ": " + message;
+    // Replace newline characters with HTML line breaks
+    const formattedMessage = message.replace(/\n/g, '<br>');
+    messageElement.innerHTML = sender + ": " + formattedMessage;
     chatBox.appendChild(messageElement);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
-
 function sendMessage() {
     const userMessage = userInput.value;
     userInput.value = '';
@@ -92,8 +97,8 @@ function sendMessage() {
 
     const nanobotMessage = getnanobotReply(userMessage);
     setTimeout(() => {
-        addMessageToChatBox('SOLOMON', nanobotMessage);
-    }, 500); // Simulate a delay
+        addMessageToChatBox('DBI00X', nanobotMessage);
+    }, 1000); // Simulate a delay
 }
 
 // Add an event listener for the Enter key or a button click to trigger sendMessage
