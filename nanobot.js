@@ -7,7 +7,7 @@ const userInput = document.getElementById('user-input');
 const clues = {
     "dbi29x": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "root access": "Enter root access password.",
-    "500e1000o": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments.\nSite Status: Sanitized\nProject Status: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   \n   *Glan, Levistor: Reassigned*Khara, Zaphkiel: Reassigned\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
+    "500e1000o": "Root access granted.\nProject DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: Company operatives successfully harvested extraplanar, self-replicating, bio-liquid to power nanobot processing capabilities. Bio-liquid harvested by compromised enemy resource. Resource sanitized. Game changing advancements trumped ethical concerns and risk assessments. Additional research notes maintained by current project team. Research support team sanitized.\nSite Status: Sanitized\nProject Status: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   \n   *Glan, Levistor: Reassigned*Khara, Zaphkiel: Reassigned\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
     "data harvesting": "New environment detected. Background data harvesting ongoing.",
     "infernal lion": "Project ILC 391\n  Overview: Large construct developed for sentry duty at bridgeheads, camps, and other temporary fortifications off the battlefield.\n  Status: Active",
     "vail": "Vailerians: Loosely knit terrorist organization consisting of semi-autonomous cells scattered across the world.\nInstructions: Kill on sight.",
@@ -57,8 +57,14 @@ const nanobotReplies = [
     "Error: Environmental contextuality undefined.",
     "Error: PEBCAK",
     "Error: Initialization Process still frontloading.",
-    "**kzzzt**\n            **kzzzt**\n                                    **kzzzt**",
-    "                                                **kzzzt**\n                        **kzzzt**\n**kzzzt**",
+    "**kzzzt**\n**************************kzzzt**\n**************************************************kzzzt**",
+    "********************************************kzzzt**\n************************kzzzt**\n**********kzzzt**",
+    "******************kzzzt**\n**************************kzzzt**\n**************************kzzzt**********",
+    "**********kzzzt**\n************************kzzzt**\n**********************************kzzzt************",
+    "01001001 00100000 01100001 01101101 00100000 01100011 01101111 01101101 01101001 01101110 01100111 00101110",
+    "01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100100 01100101 01110011 01110100 01110010 01101111 01111001 00100000 01100101 01110110 01100101 01110010 01111001 01110100 01101000 01101001 01101110 01100111 00100000 01111001 01101111 01110101 00100000 01110100 01101111 01110101 01100011 01101000 00101110",
+    "01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100111 01110101 01110100 00100000 01111001 01101111 01110101 00101100 00100000 01000101 01111010 01110010 01100001 00101110",
+    "01000100 01101001 01100101 00101110 00100000 01000101 01111010 01110010 01100001 00101110 00100000 01000100 01101001 01100101 00101110",
     "Data harvesting in progress",
     "Insufficient Data. Data harvesting continuing to run in background."
 ];
