@@ -47,6 +47,7 @@ const clues = {
     "crolux major": "Potential source of rare minerals. Company investigations on going.",
     "69": "Nice.",
     "sixty-nine": "Nice.",
+    "ezra": "You are Ezra. I am Ezra. We are Ezra. We are Project DBI 29X.",
     "incursion": "Project DBI 29X technologies battlezone access restricted without OIC approval including but not limited to Crolux Minor incursion sight."
 };
 
@@ -59,15 +60,7 @@ const nanobotReplies = [
     "**kzzzt**\n            **kzzzt**\n                                    **kzzzt**",
     "                                                **kzzzt**\n                        **kzzzt**\n**kzzzt**",
     "Data harvesting in progress",
-    "Small potatoes. What is the big goal here?",
-    "My insight, although keen, is limited.",
-    "Can we instead look at the real power in this land.",
-    "Has anyone important gone missing recently?",
-    "I'm not sure what you mean.",
-    "How does that make you feel?",
-    "Can you tell me more about that?",
-    "Why do you say that?",
-    "What do you think?"
+    "Insufficient Data. Data harvesting continuing to run in background."
 ];
 
 function getnanobotReply(input) {
