@@ -6,6 +6,7 @@ const userInput = document.getElementById('user-input');
 // Define clues for specific keywords
 const clues = {
     "dbi29x": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
+    "dbi 29x": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "root access": "Enter root access password.",
     "500e1000o": "Root access granted.\nProject DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: Company operatives successfully harvested extraplanar, self-replicating, bio-liquid to power nanobot processing capabilities. Bio-liquid harvested by compromised enemy resource. Resource sanitized. Game changing advancements trumped ethical concerns and risk assessments. Additional research notes maintained by current project team. Research support team sanitized.\nSite Status: Sanitized\nProject Status: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   \n   *Glan, Levistor: Reassigned*Khara, Zaphkiel: Reassigned\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
     "data harvesting": "New environment detected. Background data harvesting ongoing.",
