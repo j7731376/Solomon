@@ -13,7 +13,7 @@ const clues = {
     "infernal lion": "Project ILC 391\n  Overview: Large construct developed for sentry duty at bridgeheads, camps, and other temporary fortifications off the battlefield.\n  Status: Active",
     "vail": "Vailerians: Loosely knit terrorist organization consisting of semi-autonomous cells scattered across the world.\nInstructions: Kill on sight.",
     "site 29x": "Site 29x: Manufacturing site for Project DBI 29X\n  Site Status: Sanitized: gas. All involved manufacturing personnel presumed sanitized\n  Access: 40 year quarantine ending TE1349.",  
-    "prototypes": "Project DBI 29X applications to be considered by Research and Development teams for all prototypes going forward. Contact Project DBI 29X OIC for root access.",
+    "prototype": "Project DBI 29X applications to be considered by Research and Development teams for all prototypes going forward. Contact Project DBI 29X OIC for root access.",
     "seraphic": "Project DBI 29X technologies will not be used against Celestial or Devilish resources per Seraphic Inferno Treaty Clause 216 Acceptable Applications of Nascent Technologies.",
     "inferno": "Project DBI 29X technologies will not be used against Celestial or Devilish resources per Seraphic Inferno Treaty Clause 216 Acceptable Applications of Nascent Technologies.",
     "treaty": "Project DBI 29X technologies will not be used against Celestial or Devilish resources per Seraphic Inferno Treaty Clause 216 Acceptable Applications of Nascent Technologies.",
