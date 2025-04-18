@@ -5,9 +5,9 @@ const userInput = document.getElementById('user-input');
 
 // Define clues for specific keywords
 const clues = {
-    "dbi00x": "Project DBI 00X.\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
+    "dbi00x": "Project DBI 00X.\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "root access": "Enter root access password.",
-    "dbi00x": "Project DBI 00X.\n  Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments.\n  Goal: Decisive victory in the Blood War.\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
+    "dbi00x": "Project DBI 00X.\n  Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments.\nStatus: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
     "data harvesting": "New environment detected. Background data harvesting ongoing.",
     "infernal lion": "Project ILC 391\n  Overview: Large construct developed for sentry duty at bridgeheads, camps, and other temporary fortifications off the battlefield.\n  Status: Active",
     "stan": "Stanley Redux. An unfortunate soul doomed to perpetual service. In every life he returns the same, humble, blank slate. I do not know who cursed or blessed him, but I have always known him to be there.",
