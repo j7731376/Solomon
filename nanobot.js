@@ -94,7 +94,7 @@ function sendMessage() {
 
     const nanobotMessage = getnanobotReply(userMessage);
     setTimeout(() => {
-        addMessageToChatBox('DBI29X', nanobotMessage);
+        addMessageToChatBox('DBI 29X', nanobotMessage);
     }, 1000); // Simulate a delay
 }
 
