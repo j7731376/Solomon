@@ -5,10 +5,11 @@ const userInput = document.getElementById('user-input');
 
 // Define clues for specific keywords
 const clues = {
-    "dbi00x": "Project DBI 00X. Overview: REDACTED.\nROOT ACCESS REQUIRED.\nGoal: Decisive victory in the Blood War.\nTeam: REDACTED. ROOT ACCESS REQUIRED.",
+    "dbi00x": "Project DBI 00X.\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "root access": "Enter root access password.",
-    "dbi00x": "Project DBI 00X. Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments. Goal: Decisive victory in the Blood War. Team:\n*Damaris, Silas: Deceased . ROOT ACCESS REQUIRED.",
-    
+    "dbi00x": "Project DBI 00X.\n  Overview: Company operatives successfully harvested extraplanar organic powersource to to enhance nanobot processing capabilities. Game changing advancements trumped ethical concerns and risk assessments.\n  Goal: Decisive victory in the Blood War.\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
+    "data harvesting": "New environment detected. Background data harvesting ongoing.",
+    "infernal lion": "Project ILC 391\n  Overview: Large construct developed for sentry duty at bridgeheads, camps, and other temporary fortifications off the battlefield.\n  Status: Active",
     "stan": "Stanley Redux. An unfortunate soul doomed to perpetual service. In every life he returns the same, humble, blank slate. I do not know who cursed or blessed him, but I have always known him to be there.",
     "vail island": "My home. The source of my voice. For your own safety, do not seek it out. But know that my eyes are on you even now.",
     "vailerian": "Ah - they were once an ancient order. Founded the moment Kersh's eye first turned its gaze from us. What you see of them now, a ragtag band of defiance is just their current form. They have been monks, warriors, advisors. They are what ever they are needed to be.",
@@ -48,13 +49,14 @@ const clues = {
 };
 
 const nanobotReplies = [
-    "Do not waste my time with your smallest of talk.",
-    "I know not of what you speak.",
-    "Your time runs short. Even now, the unwavering moon locks you in a land of shadow.",
-    "Angels and devils are working halo in horn. How can that not be your main concern!",
-    "Who sent you here?",
-    "Can we focus on what is important? The eyes of the Eloah are turning our way as we speak!",
-    "This is a distraction. Who is pulling the strings?",
+    "Error: No hooks found.",
+    "Error: Dataset corrupted.",
+    "Error: Environmental contextuality undefined.",
+    "Error: PEBCAK",
+    "Error: Initialization Process still frontloading.",
+    "**kzzzt**\n            **kzzzt**\n                                    **kzzzt**",
+    "                                                **kzzzt**\n                        **kzzzt**\n**kzzzt**",
+    "Data harvesting in progress",
     "Small potatoes. What is the big goal here?",
     "My insight, although keen, is limited.",
     "Can we instead look at the real power in this land.",
