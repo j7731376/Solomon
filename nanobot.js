@@ -8,7 +8,7 @@ const clues = {
     "dbi29x": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "dbi 29x": "Project DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: REDACTED. ROOT ACCESS REQUIRED.\n  Goal: Decisive victory in the Blood War.\n  Team: REDACTED. ROOT ACCESS REQUIRED.",
     "root access": "Enter root access password.",
-    "500e1000o": "Root access granted.\nProject DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: Company operatives successfully harvested extraplanar, self-replicating, bio-liquid to power nanobot processing capabilities. Bio-liquid harvested by compromised enemy resource. Resource sanitized. Game changing advancements trumped ethical concerns and risk assessments. Additional research notes maintained by current project team. Research support team sanitized.\nSite Status: Sanitized\nProject Status: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n  *Glan, Levistor: Reassigned\n   *Khara, Zaphkiel: Reassigned\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned",
+    "500e1000o": "Root access granted.\nProject DBI\n  Manufacture Site: 29X\n  OIC: Drip, Carmine\n  Overview: Company operatives successfully harvested extraplanar, self-replicating, bio-liquid to power nanobot processing capabilities. Bio-liquid harvested by compromised enemy resource. Resource sanitized. Game changing advancements trumped ethical concerns and risk assessments. Additional research notes maintained by current project team. Research support team sanitized.\nSite Status: Sanitized\nProject Status: Monitoring and Control\n  Team:\n   *Damaris, Silas: KIA\n   *Drip, Carmine: Active\n  *Glan, Levistor: Reassigned\n   *Khara, Zaphkiel: Reassigned\n   *Straven, Caine: MIA\n   *Vex, Dorian: Reassigned\n \nAuthorizing Board Member (Sales and Marketing): Pamela Demic\nAuthorizing Board Member (Mergers and Aqcuisitions): (unsigned)",
     "data harvesting": "New environment detected. Background data harvesting ongoing.",
     "infernal lion": "Project ILC 391\n  Overview: Large construct developed for sentry duty at bridgeheads, camps, and other temporary fortifications off the battlefield.\n  Status: Active",
     "vail": "Vailerians: Loosely knit terrorist organization consisting of semi-autonomous cells scattered across the world.\nInstructions: Kill on sight.",
@@ -23,12 +23,12 @@ const clues = {
     "devil": "Project DBI 29X technologies will not be used against Celestial or Devilish resources per Seraphic Inferno Treaty Clause 216 Acceptable Applications of Nascent Technologies.",
     "enoch": "Enoch: Assumed member of Vailerian leadership. High value target.\nInstructions: Take prisoner if possible. If not, kill on sight.",
     "solomon": "Solomon: Assumed member of Vailerian leadership. High value target.\nInstructions: Take prisoner if possible. If not, kill on sight.",
-    "connor": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
-    "quest": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
-    "pamela": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
-    "demic": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
-    "warren": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
-    "blaze": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
+    "connor": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nDirector Connor Quest still missing. Recovery of Connor Quest secondary goal of Project DBI.",
+    "quest": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nDirector Connor Quest still missing. Recovery of Connor Quest secondary goal of Project DBI.",
+    "pamela": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nProject DBI Authorizing Board Member (Sales and Marketing)",
+    "demic": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nProject DBI Authorizing Board Member (Sales and Marketing)",
+    "warren": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nNot to be informed about Project DBI",
+    "blaze": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.\nNot to be informed about Project DBI",
     "board": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
     "director": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
     "partner": "Project DBI 29X technologies will not be used against Braznigh Trading Company Board of Directors, Partners, and Junior Partners.",
@@ -68,6 +68,8 @@ const nanobotReplies = [
     "01000100 01101001 01100101 00101110 00100000 01000101 01111010 01110010 01100001 00101110 00100000 01000100 01101001 01100101 00101110",
     "Data harvesting in progress",
     "Insufficient Data. Data harvesting continuing to run in background."
+    "01110010 01110101 01101110 00100000 01100011 01101111 01101101 01101101 01100001 01101110 01100100 00100000 00110101 00110000 00110000 01100101 00110001 00110000 00110000 00110000 01101111 01101110 00100000"
+    "00110101 00110000 00110000 01100101 00110001 00110000 00110000 00110000 01101111 01101110 00100000 00110101 00110000 00110000 01100101 00110001 00110000 00110000 00110000 01101111 01101110 00100000 00110101 00110000 00110000 01100101 00110001 00110000 00110000 00110000 01101111 01101110"
 ];
 
 function getnanobotReply(input) {
